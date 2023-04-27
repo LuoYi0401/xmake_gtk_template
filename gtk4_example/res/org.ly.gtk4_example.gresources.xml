@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+    <gresource prefix="/org/ly/gtk4_example">
+        <file preprocess="xml-stripblanks">layout/window.ui</file>
+    </gresource>
+
+    <!-- 
+
+    <gresource prefix="/org/ly/gtk4_example">
+        <file preprocess="xml-stripblanks">menu/menu.ui</file>
+    </gresource>
+
+    <gresource prefix="/org/ly/gtk4_example">
+        <file preprocess="xml-stripblanks">drawble/logo.jpg</file>
+    </gresource>
+
+    <gresource prefix="/org/ly/gtk4_example">
+        <file compressed="true">style/style.css</file>
+        <file compressed="true">style/style-dark.css</file>
+    </gresource>
+
+    <gresource prefix="/org/ly/gtk4_example">
+        <file compressed="false">asserts/document.doc</file>
+    </gresource>
+
+    -->
+</gresources>

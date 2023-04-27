@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<interface>
+    <template class="ExampleWin" parent="GtkApplicationWindow">
+        <property name="title">Gtk4 Example</property>
+        <property name="default-width">600</property>
+        <property name="default-height">480</property>
+        <child>
+            <object class="GtkBox">
+                <property name="orientation">vertical</property>
+                <child>
+                    <object class="GtkLabel" id = "hello_world">
+                        <property name="margin-start">12</property>
+                        <property name="margin-end">12</property>
+                        <property name="margin-top">12</property>
+                        <property name="margin-bottom">12</property>
+                        <property name="label">Hello World!</property>
+                    </object>
+                </child>
+            </object>
+        </child>
+    </template>
+</interface>
