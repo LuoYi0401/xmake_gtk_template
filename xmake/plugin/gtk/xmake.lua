@@ -7,7 +7,7 @@ task("gtk")
         options =
         {
             -- {简称, 参数名，参数类型， 默认值， 说明}
-            {'t', "tar", "kv", nil, "build target"},
-            {'r', "res", "vs", "./gresource.xml", "gresource.xml file"}
+            {'t', "target", "kv", nil, "build target"},
+            {'r', "resfile", "vs", "./gresource.xml", "gresource.xml file"}
         }
     }

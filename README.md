@@ -1,1 +1,3 @@
 # xmake_gtk_template
+
+目前gtk资源编译的插件存在被多次调用的情况，因为xmake会多次加载target，正在想办法解决问题

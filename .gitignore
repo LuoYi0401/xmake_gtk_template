@@ -1,0 +1,10 @@
+.cache
+.vscode
+.xmake
+
+build
+gen
+release
+
+CMakeLists.txt
+compile_commands.json
